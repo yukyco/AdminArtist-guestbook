@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* 基本レイアウト 岡山ここから↓ */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 87.5%;
+	line-height: 1.5;
+	background-color: #f7e5ed;
+}
+
+#wrapper {
+	width: 750px;
+	margin: auto;
+}
+
+#main {
+	float: right;
+	min-height: 150px;
+	width: 490px;
+	background-image: url(../AdminArtist/img/homepage.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 20px 20px 10px 20px;
+	margin-top: -40px;
+	margin-bottom: -10px;
+}
+
+#header h1,
+#header p {
+	margin: 0;
+	padding: 0;
+	height: 160px;
+}
+
+#footer {
+	clear: both;
+	background-color: transparent;
+	background-image: url(../images/content-bg.gif);
+	background-repeat: no-repeat;
+	background-position: right -1180px;
+}
+
+#footer p {
+	text-align: right;
+	margin: 10px 0 10px 0;
+	padding-top: 25px;
+}
+img {
+	border: none;
+}
+
+/* 基本レイアウト ここまで↑ */
+
+/* サブ領域のナビゲーション ここから↓ */
+
+#sub {
+	width: 200px;
+	float: left;
+}
+
+#sub ul li {
+	list-style-type: none;
+}
+
+#sub ul li a {
+	text-decoration: none;
+	color: #c64d88;
+	display: block;
+	padding: 3px 10px 1px 12px;
+	background-image: url(../images/bullet_01.gif);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	line-height: 24px;
+	width: 138px;
+}
+
+#sub ul li a:hover {
+	color: #ffffff;
+	background-color: #c64d88;
+	background-image: url(../images/bullet_02.gif);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+}
+
+/* サブ領域のナビゲーション ここまで↑ */
+
+/* 「岡山の魅力」ページ ここから↓ */
+
+#main h1 {
+	margin: 10px 0 0 0;
+	color: #000000;
+	font-size: 126%;
+}
+
+img.floatRight {
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+/*
+
+table {
+	border-collapse: collapse;
+	margin: 20px 0 10px 0;
+}
+
+table th,
+table td {
+	padding: 3px 6px 3px 6px;
+	vertical-align: top;
+	border: 1px solid #bbbbbb;
+}
+
+table th {
+	font-weight: bold;
+	text-align: left;
+	background-color: #cccccc;
+	white-space: nowrap;
+}
+*/
+
+
+#main h2 {
+	font-size: 100%;
+	margin-bottom: -0.5em;
+}
+
+input.ml {
+	width: 300px;
+}
+
+/* 「メールマガジン登録」ページ ここまで↑ */
+
+/* とぐる */
+
+.hide{
+	display:none;
+}
+
